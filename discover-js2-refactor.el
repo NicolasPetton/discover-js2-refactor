@@ -7,7 +7,7 @@
 ;; Package: discover-js2-refactor
 ;; Package-Requires: ((js2-refactor "20131221.501") (discover "20140103.1339"))
 
-;; Version: 0.5
+;; Version: 0.6
 
 ;; discover-js2-refactor.el is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -35,7 +35,7 @@
 		(actions
 		 ("Functions"
 		  ("ef" "extract function" js2r-extract-function)
-		  ("em" "find extract method" js2r-extract-method)
+		  ("em" "extract method" js2r-extract-method)
 		  ("ip" "introduce parameter" js2r-introduce-parameter)
 		  ("lp" "localize parameter" js2r-localize-parameter)
 		  ("ao" "Arguments to object" js2r-arguments-to-object))
